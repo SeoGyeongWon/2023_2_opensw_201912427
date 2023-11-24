@@ -3,23 +3,16 @@
 1.번과제 Mask_RCNN tf2
 
 가상환경 만들고 tensorflow-gpu==2.2 install<br/>
-cuda와 cudnn 텐서플로우 버전에 맞는걸로 설치함.
+cuda와 cudnn 텐서플로우 버전에 맞는걸로 설치함.<br/>
 
 <br/>tensorflow2부터는 케라스와 통합됬다해서 따로 keras 설치 하지 않았음.<br/> 
-requirements.txt에서 케라스와 텐서플로를 지우고 pip install했음<br/>
+https://github.com/matterport/Mask_RCNN.git 깃 클론하고 requirements.txt에서 케라스와 텐서플로를 지우고 pip install했음<br/>
+만들어진 Maks_RCNN폴더에 coco.h5 와 balloon.h5를 넣고 smaple\balloon 폴더에 balloon\train balloon\val 넣음 <br/>
 
-<br/>-utils.py-<br/>
-    dh = tf.log(gt_height / height)<br/>
-    dw = tf.log(gt_width / width)<br/>
-    텐서플로2에서 tf.math.log가 권장되는 방식이므로 수정함, 둘다 기능적으로는 문제없음<br/><br/>
-    dh = tf.math.log(gt_height / height)<br/>
-    dw = tf.math.log(gt_width / width)<br/><br/>
+python balloon.py train --dataset="C:\Users\skwkn\Mask_RCNN\samples\balloon\balloon" --weights=coco - 아나콘다에 입력했으나 오류발생.
 
-    -parallel_model.py- <br/>
-import keras.backend as K<br/>
-import keras.layers as KL<br/>
-import keras.models as KM<br/><br/>
-기존의 케라스 패키지에서 tf.keras패키지로 변경한다.<br/><br/>
-import tensorflow.keras.backend as K<br/>
-import tensorflow.keras.layers as KL<br/>
-import tensorflow.keras.models as KM<br/>
+<img width="853" alt="image" src="https://github.com/SeoGyeongWon/2023_2_opensw_201912427/assets/126853734/cdf9f925-1022-457a-8b02-3873b4ed6368"> <br/><br/>
+
+끝끝내 해결하지 못했음.
+
+코드관련 수정
