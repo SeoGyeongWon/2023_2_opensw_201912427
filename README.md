@@ -15,10 +15,10 @@ python balloon.py train --dataset="C:\Users\skwkn\Mask_RCNN\samples\balloon\ball
 
 <img width="853" alt="image" src="https://github.com/SeoGyeongWon/2023_2_opensw_201912427/assets/126853734/cdf9f925-1022-457a-8b02-3873b4ed6368"> <br/><br/>
 
-끝끝내 해결하지 못했음.<br/><br/>
+*끝끝내 해결하지 못했음.<br/><br/>
 
 
-코드관련 수정  <br/><br/>
+#코드관련 수정  <br/><br/>
 tensorflow upgrade script를 사용하여 Tf1.x의 코드를 Tf2.x코드로 업그레이드 해준다고 함.<br/><br/>
 
 tf_upgrade_v2 --infile 변환시킬파일.py --outfile 변환시킬파일-upgrade.py <-tf upgrade script <br/><br/>
