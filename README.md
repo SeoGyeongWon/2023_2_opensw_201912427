@@ -11,7 +11,7 @@
     dh = tf.math.log(gt_height / height)<br/>
     dw = tf.math.log(gt_width / width)<br/><br/>
 
-    -parallel_model.py-<br/>
+    -parallel_model.py- <br/>
 import keras.backend as K<br/>
 import keras.layers as KL<br/>
 import keras.models as KM<br/><br/>
