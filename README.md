@@ -15,4 +15,7 @@ python balloon.py train --dataset="C:\Users\skwkn\Mask_RCNN\samples\balloon\ball
 
 끝끝내 해결하지 못했음.
 
-코드관련 수정
+
+코드관련 수정  <br/><br/>
+tensorflow upgrade script를 사용하여 Tf1.x의 코드를 Tf2.x코드로 업그레이드 해준다고 함.
+tf_upgrade_v2 --infile 변환시킬파일.py --outfile 변환시킬파일-upgrade.py 
