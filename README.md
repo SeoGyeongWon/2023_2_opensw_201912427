@@ -2,7 +2,11 @@
 
 1.번과제 Mask_RCNN tf2
 
-<br/>tensorflow2부터는 케라스와 통합되므로 requirements.txt에서 케라스를 지우고 tensorflow >=2.0.0으로 바꿔준다.<br/>
+가상환경 만들고 tensorflow-gpu==2.2 install<br/>
+cuda와 cudnn 텐서플로우 버전에 맞는걸로 설치함.
+
+<br/>tensorflow2부터는 케라스와 통합됬다해서 따로 keras 설치 하지 않았음.<br/> 
+requirements.txt에서 케라스와 텐서플로를 지우고 pip install했음<br/>
 
 <br/>-utils.py-<br/>
     dh = tf.log(gt_height / height)<br/>
