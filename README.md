@@ -107,6 +107,9 @@ INFO line 2173:16: Added keywords to args of function 'tf.reduce_mean' <br/>
 INFO line 2180:73: Added keywords to args of function 'tf.size' <br/>
 INFO line 2197:16: Added keywords to args of function 'tf.reduce_mean' <br/>
 INFO line 2822:24: Added keywords to args of function 'tf.reduce_sum' <br/>
-INFO line 2823:12: Added keywords to args of function 'tf.boolean_mask' <br/>
+INFO line 2823:12: Added keywords to args of function 'tf.boolean_mask' <br/><br/><br/>
+
+
+3개의 .py 파일 외에는 따로 수정되는 파일은 없었음.
 
 
